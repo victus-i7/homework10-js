@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" aria-label="logo"><img src="./images/logo.svg" alt="logo" class="logo">
+        </a>
+        <div class="menu">
+            <img src="./images/icon-menu.svg" alt="hamburger-icon menu-open" class="open-menu">
+            <img src="./images/icon-close-menu.svg" alt="times-icon menu-close" class="close-menu">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a href="#" class="dropdown">
+                        <span>Features</span>
+                        <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+                        <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+                    </a>
+                    <ul class="dropdown-list">
+                        <li class="dropdown-link">
+                            <a href="#">
+                                <img src="./images/icon-todo.svg" alt="todo-list icon">
+                                <span>Todo List</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#">
+                                <img src="./images/icon-calendar.svg" alt="calender icon">
+                                <span>Calender</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#">
+                                <img src="./images/icon-reminders.svg" alt="bell icon">
+                                <span>Reminders</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-link">
+                            <a href="#">
+                                <img src="./images/icon-planning.svg" alt="clock icon">
+                                <span>Planning</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-link">
+                    <a href="#" class="dropdown">
+                        <span>Company</span>
+                        <img src="./images/icon-arrow-up.svg" alt="arrow up" class="arrow-up">
+                        <img src="./images/icon-arrow-down.svg" alt="arrow down" class="arrow-down">
+                    </a>
+                    <ul class="dropdown-list">
+                        <li class="dropdown-link"><a href="#">History</a></li>
+                        <li class="dropdown-link"><a href="#">Our Team</a></li>
+                        <li class="dropdown-link"><a href="#">Blog</a></li>
+                    </ul>
+                </li>
+                <li class="nav-link"><a href="#">Careers</a></li>
+                <li class="nav-link"><a href="#">About</a></li>
+            </ul>
+            <div class="registration">
+                <button>Login</button>
+                <button>Register</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <article>
+            <img src="./images/image-hero-desktop.png" alt="hero image" class="heroimg">
+
+        </article>
+        <section class="text-content">
+
+            <h1 class="text-h1">Make <br>
+                remote work</h1>
+
+            <p>Get your team in sync, no matter your location.</p>
+            <p>Streamline processes, create team rituals, and</p>
+            <p>watch productivity soar.</p>
+            <button>Learn more</button>
+            <div class="clients">
+                <img src="./images/client-databiz.svg" alt="databiz logo">
+                <img src="./images/client-audiophile.svg" alt="audiophile">
+                <img src="./images/client-meet.svg" alt="meet">
+                <img src="./images/client-maker.svg" alt="maker">
+            </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
